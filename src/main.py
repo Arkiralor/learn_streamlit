@@ -1,7 +1,8 @@
 import streamlit as st
 
-st.write(
+resp = st.write(
     '''
     Hello world!
 '''
 )
+print(resp)
